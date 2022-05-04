@@ -1,0 +1,49 @@
+.info_section {
+    height: 100vh;
+    width: 100%;
+}
+
+#about {
+    background: linear-gradient(rgb(50, 50, 50), rgba(0,0,0,0)), url("/paper/img/bg/aboutus.jpg") center / cover no-repeat;
+}
+
+#about_features {
+    background: linear-gradient(rgb(0,0,0,0.2), rgba(0,0,0,0.2)), url("/paper/img/bg/farm3.jpg") center / cover no-repeat;
+}
+
+#developer {
+    background: url("/paper/img/bg/jan-sendereks.jpg") center / cover no-repeat;
+}
+
+#contact_us {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/paper/img/bg/fabio-mangione.jpg") center / cover no-repeat;
+}
+
+#dev_pic {
+    height: 360px;
+    width: auto;
+    border-radius: 500px;
+    box-shadow: -10px -10px 15px #aaa;
+}
+
+#dev_card {
+    background: linear-gradient(rgba(255,255,255,1), rgb(176, 188, 201));
+    box-shadow: 5px 5px #888;
+}
+
+#feature_card {
+    background: linear-gradient(rgba(255,255,255,1), rgb(90, 148, 75));
+    box-shadow: 5px 5px rgb(102, 79, 3);
+}
+
+.feature-card-sm {
+    min-height: 230px;
+    border: 1px solid rgb(102, 79, 3);
+    box-shadow: 5px 5px rgb(102, 79, 3);
+}
+
+#contact_card {
+    background: linear-gradient(rgba(255,255,255,1), rgb(176, 188, 201));
+    box-shadow: 5px 5px #888;
+    min-height: 500px;
+}
